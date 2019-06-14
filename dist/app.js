@@ -14,7 +14,7 @@ var app = (0, _express2.default)(); /**
 //mongodbRest.startServer();
 
 
-var server = app.listen(process.env.PORT = 1234 || 8000, function () {
+var server = app.listen(process.env.PORT = 1235 || 8000, function () {
     console.log('Server is up and running on port 8080');
 });
 

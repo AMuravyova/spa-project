@@ -44,7 +44,7 @@ gulp.task('webpack', () => {
 
 gulp.task('serve', ['webpack'],() => {
     browserSync.init({
-        port: process.env.PORT = 1234 || 8000,
+        port: process.env.PORT = 1235 || 8000,
         server: {
             baseDir: 'app'
         }
