@@ -1,0 +1,66 @@
+
+
+<div class="panel" style="width:220px;">
+    <form name="myForm" novalidate ng-submit="vm.addNewFile(vm.newFile, myForm.$valid)">
+        <div style="background-color: transparent">
+
+            <div class="form-group">
+                <input name="fileName" type="text" class="form-control" ng-model="vm.newFile.title" placeholder="Title" required>
+                <div class="error" ng-show="vm.showError">
+                    {{vm.getError(myForm.fileName.$error)}}
+                </div>
+            </div>
+            <div class="form-group" placeholder="Type">
+                <select class="form-control" ng-model="vm.newFile.type">
+                    <label>
+                        <option value=".doc">.doc</option>
+                        <option value=".xls" ng-selected="dataValue">.xls</option>
+                        <option value=".png" ng-selected="dataValue">.png</option>
+                    </label>
+                </select>
+            </div>
+            <div class="form-group" ng-if = "vm.newFile.type === '.png'">
+                <input name="path" type="text" class="form-control" ng-model="vm.newFile.path" placeholder="Path" required>
+                <div class="error" ng-show="vm.showError">
+                    {{vm.getError(myForm.path.$error)}}
+                </div>
+            </div>
+            <div class="form-group">
+                <select class="form-control" ng-model="vm.newFile.teamId">
+                    <label>
+                        <option value="Mera team">Mera team</option>
+                        <option value="Guests team" ng-selected="dataValue">Guests team</option>
+                        <option value="Other team" ng-selected="dataValue">Other team</option>
+                    </label>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" style="background-color: #b73a6d; font-size: 16px">{{vm.choiseTitle()}}</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

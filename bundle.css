@@ -1,0 +1,22 @@
+/*files image component*/
+.pic {
+  width: 170px;
+  height: 170px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border: 1px solid pink;
+}
+.pic img {
+  width: auto;
+  max-height: 100%;
+}
+.wd {
+  width: 170px;
+  height: 170px;
+  vertical-align: middle;
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVuZGxlLmNzcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Iiwic291cmNlUm9vdCI6IiJ9*/

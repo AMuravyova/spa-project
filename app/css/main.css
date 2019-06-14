@@ -1,0 +1,417 @@
+body{
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.top_header a{
+color: #fff;
+text-decoration: none;
+}
+
+.menu__tabs__toggle{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: red;
+    position: fixed;
+    top:60px;
+    width: auto;
+    right: 194px;
+    visibility: hidden;
+}
+
+.menu__tabs__toggle ul{
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    width: 125px;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    visibility: hidden;
+}
+
+.tabs__item__toggle.active{
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    background-color: #8696ec;
+}
+
+.tabs__item__toggle{
+
+    border-bottom: 2px solid #fff;
+    padding: 10px 15px;
+    font-size: 17px;
+    height: 34px;
+    background-color: #ea839d;
+}
+
+.tabs__item__toggle:hover{
+
+    font-weight: bold;
+}
+
+.top_header{
+    position: fixed;
+    right:0;
+    left: 0;
+    top:0;
+    display: inline-block;
+    background: linear-gradient(to right, #5e5edc, #e47a8d);
+    font-size: 20px;
+    overflow: auto;
+    opacity: 0.7;
+    z-index: 10;
+}
+
+.menu__button
+{
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #fff;
+    position: fixed;
+    top: 18px;
+    right: 188px;
+}
+
+.account__button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    position: fixed;
+    top:20px;
+    right: 20px;
+}
+
+.dropdown.account__button
+{
+    position: fixed;
+    top: 60px;
+    right: 180px;
+}
+
+
+.menu__tabs ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+float: left;
+
+}
+
+.menu__tabs ul li{
+    display: inline-block;
+}
+
+.header_title{
+    float: left;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    color: #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    vertical-align: middle;
+}
+
+.tabs__item{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+    margin-right: 30px;
+
+    color: #fff;
+    white-space: nowrap;
+    height: 60px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    list-style-type: none;
+    float: left;
+}
+
+
+.tabs__item.active{
+    font-weight: bold;
+    border-bottom: 5px solid #fff;
+}
+
+.tabs__item:hover{
+    font-weight: bold;
+
+}
+
+
+
+.account{
+    display: inline-block;
+    position: fixed;
+    right: 58px;
+    color: #fff;
+    height: 60px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: 17px 0 12px 0;
+    float: right;
+}
+
+.account a{
+    color: #ffffff;
+    list-style: none;
+}
+
+.column__left{
+    margin-top: 170px;
+    clear: both;
+}
+
+.column__right{
+    margin-top: 170px;
+    display: inline-block;
+}
+
+.content__container{
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+.view__all{
+    float: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: blue;
+}
+
+.view__all:hover{
+    color: red;
+}
+
+.avatar{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.doc__title
+{
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ee83d0;
+}
+
+
+/*list-doc*/
+.doc
+{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    margin-right:15px;
+    margin-bottom:50px;
+    margin-top: 20px;
+    border: 1px solid olive;
+    vertical-align: middle;
+    position: relative;
+}
+
+.doc img
+{
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+
+.picture{
+    width: 170px;
+    height:170px;
+    border-radius: 100%;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url("../img/pic_people.jpg");
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+
+.img__container{
+    position: relative;
+    margin-bottom: 30px;
+    height: 170px;
+    width: 170px;
+}
+
+.text{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: 20px 0;
+}
+
+.text__container{
+    position: relative;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+.text span{
+    font-size: 20px;
+}
+
+.blur{
+    z-index: 1;
+    filter: blur(10px);
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    height: 57px;
+    background: linear-gradient(to right, lightblue, pink);
+    opacity:0.6;
+    border: 1px solid transparent;
+}
+
+/*MODALS*/
+#dlform{
+    width: 70%;
+    margin: 0;
+}
+#dlform input{
+    margin-bottom: 15px;
+}
+/*FORMS*/
+.form_log{
+    width: 50%;
+    margin: auto;
+}
+
+.edit_btn{
+    margin: 15px 15px 15px 200px;
+}
+
+
+/*files image component*/
+.pic{
+    width: 170px;
+    height:170px;
+    margin-right:15px;
+    margin-bottom:50px;
+    margin-top: 20px;
+    /*margin-left: 15px;*/
+    border: 1px solid olive;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.pic img
+{
+    width: auto;
+    max-height: 100%;
+}
+
+
+/*list-image list-doc*/
+.download{
+    position: relative;
+}
+.download:hover {
+    /*opacity: .25;*/
+    /*background: rgba(247,77,101,.9);*/
+    /*box-shadow:0 0 0 128px rgba(0, 0, 0, 0.33) inset;*/
+}
+.download button{
+    margin: auto;
+    width: 90px;
+    height: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    /*position: absolute;*/
+    float: none;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+.download:hover .btn {
+    /*opacity: 1;*/
+    /*position: absolute;*/
+    float: none;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    display: block;
+
+}
+
+.wrapperBtn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.download:hover .wrapperBtn{
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+
+
+
+
+/*reg auth*/
+form .ng-invalid-required.ng-dirty{
+    background-color: lightpink;
+}
+
+form .ng-valid.ng-dirty{
+    background-color: white;
+}
+
+form .ng-invalid-email.ng-dirty{
+    background-color: lightgoldenrodyellow;
+}
+
+span.summary.ng-invalid{
+    color: red;
+    font-weight: bold;
+}
+
+span.summary.ng-valid{
+    color: green;
+}
+
+div.error{
+    color: red;
+    font-weight: bold;
+}

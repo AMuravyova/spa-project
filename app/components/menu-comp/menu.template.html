@@ -1,0 +1,29 @@
+<!--<button class="menu__button hidden-md hidden-lg">-->
+    <!--<span class="glyphicon glyphicon-align-justify"></span>-->
+<!--</button>-->
+
+<div class="menu__tabs__toggle hidden-md hidden-lg">
+    <ul>
+
+        <li ui-sref-active="active" class="tabs__item__toggle"><a ui-sref="page.home.dashboard" href="#dashboard" data-toggle="tab">Dashboard</a></li>
+        <li ui-sref-active="active" class="tabs__item__toggle"><a ui-sref="page.home.documents" href="#doc" data-toggle="tab">Documents</a></li>
+        <li ui-sref-active="active" class="tabs__item__toggle"><a ui-sref="page.home.images" href="#img" data-toggle="tab">Images</a></li>
+        <li ui-sref-active="active" class="tabs__item__toggle"><a ui-sref="page.home.team" href="#team" data-toggle="tab">{{vm.getCurrentUser().team}}</a></li>
+
+    </ul>
+</div>
+
+<!--<nav class="menu__tabs hidden-sm hidden-xs">-->
+<nav class="menu__tabs">
+
+    <ul id="myTab">
+        <li ui-sref-active="active" class="tabs__item active"><a ui-sref="page.home.dashboard" href="#dashboard" data-toggle="tab">Dashboard</a></li>
+        <li ui-sref-active="active" class="tabs__item"><a ui-sref="page.home.documents" href="#doc" data-toggle="tab">Documents</a></li>
+        <li ui-sref-active="active" class="tabs__item"><a ui-sref="page.home.images" href="#img" data-toggle="tab">Images</a></li>
+        <li ui-sref-active="active" class="tabs__item"><a ui-sref="page.home.team" href="#team" data-toggle="tab">{{vm.getCurrentUser().team}}</a></li>
+    </ul>
+
+
+    <account-comp></account-comp>
+
+</nav>

@@ -1,0 +1,19 @@
+<div>
+    <div class="doc__title">Documents</div>
+    <div><a class="view__all" href="http://localhost:8000/#/home/documents">{{listCtrl.choiseView()}}</a></div>
+</div>
+
+<div class="content__container">
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+
+                <span ng-repeat="document in listCtrl.documents | limitTo:listCtrl.limitView">
+                    <docfile-comp document="document"></docfile-comp>
+                </span>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+<div class="col-md-3 col-sm-6">
+    <div class="doc download">
+        <div ng-if = "docCtrl.document.type === docCtrl.docType">
+            <img class="img-responsive center-block" ng-src="components/files/document/icons/Word.png" alt="doc-icon">
+            <div style="width: 60px; margin: 5px auto">{{docCtrl.document.title}}</div>
+        </div>
+        <div ng-if = "docCtrl.document.type === docCtrl.xlsType">
+            <img class="img-responsive center-block" ng-src="components/files/document/icons/Excel.png" alt="doc-icon">
+            <div style="width: 90px; margin: 5px auto">{{docCtrl.document.title}}</div>
+        </div>
+        <div class="wrapperBtn">
+            <button class="btn btn-success" ng-click="docCtrl.download()">Download</button>
+            <button class="btn btn-success" ng-click="docCtrl.deleteDocument()">Delete</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div>-->
+    <!--<div class="doc__title">Documents</div>-->
+    <!--<div><a class="view__all" href="http://localhost:8000/#/home/documents">View all</a></div>-->
+<!--</div>-->
+
+<!--<div class="content__container">-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-12 col-sm-12">-->
+            <!--<div class="row">-->
+
+                <!--<span ng-repeat="doc in docCtrl.arrDocuments">-->
+                     <!--<div class="col-md-3 col-sm-6">-->
+                          <!--<div class="doc" ng-mouseenter="handlerEvent()">{{doc.path}}{{doc.title}}</div>-->
+                     <!--</div>-->
+                <!--</span>-->
+
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
+
