@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./app -a https://spa-project.herokuapp.com/ -p process.env.PORT = 1235 || 8000 -c-1 ",
+    "start": "node index.js",
+    "heroku-postbuild": "ng build --prod",
     "build": "babel app -d dist --presets es2015",
     "watch": "babel app -d dist --presets es2015 -w",
     "webpack": "./node_modules/.bin/webpack -w",
