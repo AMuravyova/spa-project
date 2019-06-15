@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "heroku-postbuild": "ng build --prod",
+    "start": "http-server ./app -a localhost -p PORT = 1235 -c-1 ",
     "build": "babel app -d dist --presets es2015",
     "watch": "babel app -d dist --presets es2015 -w",
     "webpack": "./node_modules/.bin/webpack -w",
